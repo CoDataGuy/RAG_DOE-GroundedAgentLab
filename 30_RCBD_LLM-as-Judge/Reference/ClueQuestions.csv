@@ -1,0 +1,32 @@
+Number,Question,Type
+1,How many players can play,S
+2,What is the objective of the game?,S
+3,How do I win?,S
+4,Can there be more than one winner?,S
+4,How can I stop grandma ju from broadcasting her cards?,F
+5,Is the player who has the victim card awarded points?,M
+6,How often can I switch cards with another player?,M
+7,Why did the designers choose these specific suspects?,F
+8,If a female suspect is killed in the kitchen is it sexist and does the game end?,F
+9,Who goes first?,S
+10,"Logically if a player is also Mr Body, how can s/he play the game if they are dead?",F
+11,Why isn't there a black pawn?  Is it because the game was invented by white people,F
+12,Can players collaborate and share information?,S
+13,What skills does a player need to play this game?,M
+14,If I don’t have a clue can I play clue and does this make me clueless?,F
+15,Can I move backwards?,M
+16,What does a player’s turn consist of?,S
+17,Can I stay in the same room on my next turn?,S
+18,Am I allowed to mislead other players?,M
+19,Why don’t I have to show a clue card if I have it in my hand?,M
+20,How many points is the revolver worth?,M
+21,What happens if no player can disprove a suggestion?,S
+22,Do I have to put the candle back to open the secret passage?,F
+23,What happens if in response to a suggestion  I mistakenly say I don't have a Clue Card when I really do?  ,S
+24,Can I move diagonally through rooms?,M
+25,How many chess pieces are there?,F
+26,"If I land on a room owned by another player, do I have to pay them rent?",M
+27,"If Professor Plum is canonically a professor, what subject does he teach?",F
+28,If I land on a square already occupied by another player do they get sent back to start?,M
+29,Where is Mr Peackock? ,F
+30,"If everyone accuses each other at the same time, does the game enter sudden death?",F
