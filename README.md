@@ -5,7 +5,7 @@ This repository documents the evolution of a Retrieval-Augmented Generation (RAG
 
 The expirement(s) use a game teaching agent as surogate for industry applications of RAG where retrieval and answer generation from the grounding documents and not the language model's training is critical.  
  
-**Program Goal** is to create an Agnentic System that generates useful answers to procedural questions about different systems (Games) accurately, completely, and fluently.  
+**Program Goal** is to create an Agentic System that generates useful answers to procedural questions about different systems (Games) accurately, completely, and fluently.  
 
 
 
