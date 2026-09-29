@@ -1,16 +1,30 @@
+
+======================================================================
+CHUNK 1
+======================================================================
 # CLUE Classic Detective Game Rules
 
 For 3 to 6 players / Ages 8 to adult  
 Rules ©1986 Hasbro, Inc. Printed in U.S.A.
 
-## Objective
+----------
+
+======================================================================
+CHUNK 2
+======================================================================
+Objective
 Mr. Boddy—apparently the victim of foul play—is found in one of the rooms of his mansion.  
 To win, you must determine the answers to these three questions:
 - Who done it?
 - Where?
 - With what weapon?
 
-## Equipment
+----------
+
+======================================================================
+CHUNK 3
+======================================================================
+Equipment
 - **Clue® Game Board**: Shows nine rooms in Mr. Boddy’s mansion
 - **6 colored tokens**, each representing one of the Suspects:
   - Colonel Mustard — yellow
@@ -25,7 +39,12 @@ To win, you must determine the answers to these three questions:
 - **Confidential “Case File” envelope**
 - **1 die**
 
-## Setup
+----------
+
+======================================================================
+CHUNK 4
+======================================================================
+Setup
 1. Look on the board for the START space and Suspect name nearest you. Take that Suspect token as your playing piece and place it on that space.  
    If fewer than six players are playing, place the remaining token(s) on their corresponding name spaces.
 2. Place each of the weapons in a different room. Select any six of the nine rooms.
@@ -36,7 +55,12 @@ To win, you must determine the answers to these three questions:
 6. Take a detective notebook sheet and privately check off the cards in your hand.
 7. Miss Scarlet (red token) always goes first. Play continues to the left.
 
-## Game Play
+----------
+
+======================================================================
+CHUNK 5
+======================================================================
+Game Play
 
 ### Moving Your Token
 On each turn, try to reach a different room of the mansion.
@@ -97,11 +121,21 @@ Rules:
 - You must still disprove Suggestions
 - If blocking a door, move your token into the room
 
-## Winning
+----------
+
+======================================================================
+CHUNK 6
+======================================================================
+Winning
 You win if all three cards you named are in the Case File.
 Reveal them to all players.
 
-## Special Notes About Suggestions
+----------
+
+======================================================================
+CHUNK 7
+======================================================================
+Special Notes About Suggestions
 1. You may name cards from your own hand
 2. You may make a Suggestion and Accusation on the same turn
 3. Only one Suggestion per room entry
@@ -111,10 +145,17 @@ Reveal them to all players.
    - Make a Suggestion without rolling
 6. Any number of Suspects or Weapons may occupy the same Room
 
-## Additional Materials
+----------
+
+======================================================================
+CHUNK 8
+======================================================================
+Additional Materials
 Extra detective notepads may be ordered from Parker Brothers.
 
 Write to:  
 Consumer Relations, Parker Brothers  
 P.O. Box 1012  
 Beverly, MA 01915
+
+----------

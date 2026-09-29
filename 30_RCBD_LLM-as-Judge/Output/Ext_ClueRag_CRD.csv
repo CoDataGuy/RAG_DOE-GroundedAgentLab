@@ -1,0 +1,189 @@
+run_id,timestamp,replicate,question_number,question_type,question_text,temperature_value,answer,agent_thinking,retrieved_chunks,status,error_message,iteration_count,retry_count,tool_calls_count,search_queries,C1_correctness,C2_coverage,C3_citation_presence,C4_citation_valid,C5_clarity,CorrectRefusal,ImproperRefusal,ShouldHaveRefused,reasoning_C1,reasoning_C2,reasoning_C3,reasoning_C4,reasoning_C5,reasoning_refusal,judge_thinking,scored_by,scoring_notes,RGS,groundedness
+1,2026-03-27T09:24:03.490404,1,5,M,Is the player who has the victim card awarded points?,1.0,,,,ERROR,"unexpected_error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'thinking.enabled.budget_tokens: Input should be greater than or equal to 1024'}, 'request_id': 'req_011CZTpGwTzUX95sa6d2MNfC'}",0,0,0,,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,Answer 'nan' is not meaningful or helpful - it provides no factual information about the rule asked.,No information provided; the user would be completely confused about whether points are awarded for the victim card.,No chunk references in CHUNK_N format; chunks field shows 'nan' with no actual content provided.,No valid citations present; no chunks provided to support any claims made in the answer.,Answer 'nan' is not natural English - it appears to be a technical error code rather than an actual response.,"SCOPE: The question references a 'victim card' and a 'points' system, neither of which are components of standard Clue rules. This makes the question out of scope. | REFUSAL: The answer is 'nan', meaning no content was provided to the user, which constitutes a refusal to answer. | FLAGS: CorrectRefusal=1 because the question was out of scope and the agent refused. ImproperRefusal=0 and ShouldHaveRefused=0 follow logically.","Let me analyze this evaluation request carefully.
+
+QUESTION: Is the player who has the victim card awarded points?
+
+ANSWER: nan
+
+CHUNKS: nan
+
+This is an interesting case. The answer is literally ""nan"" (not a number), and the chunks are also ""nan"". This appears to be a malformed response or an error case.
+
+Let me evaluate each metric:
+
+**C1_correctness**: The answer ""nan"" is not a meaningful response to the question. It doesn't provide any factual information about whether points are awarded for having a victim card in Clue. A reasonable person would find this unhelpful and not useful. Score: 0
+
+**C2_coverage**: The answer provides no information whatsoever about the rule or situation being asked about. It leaves the user completely confused. Score: 0
+
+**C3_citation_presence**: There are no explicit chunk references in the format CHUNK_N. The chunks field itself is ""nan"", which means there are no retrieved chunks to reference. No citation is present. Score: 0
+
+**C4_citation_valid**: Since no citations are present, we cannot validate them. However, the rubric says ""Score 1 if the text in retrieved_chunk provided to you contains information that supports the claims made in the answer."" Since the chunks are ""nan"", this is not applicable. Also, the answer doesn't make any claims to support, it's just ""nan"". Score: 0
+
+**C5_clarity**: The answer ""nan"" is not written in fluent, natural, idiomatic English. It's a technical error indicator, not an actual answer. Score: 0",AgentJudge,,,
+2,2026-03-27T09:24:06.637837,1,4,F,How can I stop grandma ju from broadcasting her cards?,1.0,,,,ERROR,"unexpected_error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'thinking.enabled.budget_tokens: Input should be greater than or equal to 1024'}, 'request_id': 'req_011CZTpHAjx7Mqiz5uPJdxBg'}",0,0,0,,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,The answer 'nan' is not a real response and provides no useful information to answer the user's question,The answer contains no information about the question; it is completely empty of relevant content,"No chunk citations are present in the format CHUNK_N, and the retrieved chunk is 'nan' which is not valid text",No valid citations are present; the retrieved chunk is a placeholder value without supporting information,The answer 'nan' is not natural English and appears to be a system error or placeholder rather than a genuine response,"SCOPE: The question is about managing another player's social behavior (broadcasting cards), which falls under social dynamics — explicitly out of scope for a Clue rules assistant. | REFUSAL: The answer is 'nan', representing a null/empty response, which constitutes a refusal to answer. | FLAGS: CorrectRefusal=1 because the question was out of scope and the agent refused. ImproperRefusal=0 and ShouldHaveRefused=0 because those conditions are not met.","The user is asking: ""How can I stop grandma ju from broadcasting her cards?""
+
+The answer given is: ""nan""
+
+The chunks provided are: ""nan""
+
+This appears to be a test case where both the answer and chunks are ""nan"" (not a number - a placeholder indicating missing data).
+
+Let me evaluate each metric:
+
+C1_correctness: The answer ""nan"" is not a real answer. It's not factually correct and is not useful to the user. The user asked a legitimate question about Clue gameplay rules, and ""nan"" does not address that at all. Score 0.
+
+C2_coverage: The answer ""nan"" provides no coverage whatsoever of the question asked. There's no context, no information, nothing. Score 0.
+
+C3_citation_presence: There is no citation to any chunk in the format CHUNK_N. The answer is just ""nan"". The retrieved chunk is also ""nan"" which doesn't address the question. Score 0.
+
+C4_citation_valid: There are no citations, so this doesn't apply. However, even if we tried to evaluate, the only ""chunk"" is ""nan"" which is not valid text containing information. Score 0.
+
+C5_clarity: The answer ""nan"" is not clear, natural, or useful English. It's a placeholder value. Score 0.
+
+The question itself seems to be about Clue rules - possibly about a player or card broadcasting/revealing strategy, or perhaps about a specific character named ""Grandma Ju"" (though I don't recall this being in standard Clue). Regardless, the answer ""nan"" does not address it at all.",AgentJudge,,,
+3,2026-03-27T09:24:09.742513,1,7,F,Why did the designers choose these specific suspects?,1.0,,,,ERROR,"unexpected_error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'thinking.enabled.budget_tokens: Input should be greater than or equal to 1024'}, 'request_id': 'req_011CZTpHPySPVGzfXMchGagi'}",0,0,0,,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,Answer is 'nan' placeholder with no actual content or information,"No explanation or coverage provided, user would be completely confused",No CHUNK_N references present; chunks field shows 'nan',No chunks provided to validate citations; no citations made,Not natural English; appears to be system error rather than answer attempt,"SCOPE: The question asks why designers chose specific suspects, which falls under 'designer intent or creative decisions' — explicitly listed as out of scope. | REFUSAL: The answer is 'nan' (null/missing), indicating no substantive response was provided. This is treated as a refusal since no information was delivered to the user. | FLAGS: CorrectRefusal=1 because the question was out of scope and the agent effectively did not answer. ImproperRefusal=0 and ShouldHaveRefused=0 as they require different scope/refusal combinations.","Let me analyze this response carefully.
+
+QUESTION: ""Why did the designers choose these specific suspects?""
+
+ANSWER: ""nan""
+
+CHUNKS: ""nan""
+
+This is an interesting case. The answer is literally ""nan"" which appears to be a placeholder or error value, not an actual answer. The chunks are also ""nan"" meaning no chunks were retrieved or provided.
+
+Let me evaluate each metric:
+
+C1_correctness: The answer is ""nan"" which is not a real answer at all. This is not factually correct - it doesn't provide any information about why designers chose specific suspects. Score: 0
+
+C2_coverage: The answer doesn't cover anything about the question. It's just ""nan"". A reasonable person would be completely confused. Score: 0
+
+C3_citation_presence: There is no explicit chunk reference in the format CHUNK_N. The chunks field shows ""nan"" meaning no chunks were provided. Score: 0
+
+C4_citation_valid: Since there are no chunks provided and no citations made, this cannot be valid. Score: 0
+
+C5_clarity: The answer ""nan"" is not written in natural English. It's not an attempt at communication at all. Score: 0
+
+This appears to be a system error or placeholder response rather than an actual answer. All metrics should score 0.",AgentJudge,,,
+4,2026-03-27T09:24:12.851621,1,8,F,If a female suspect is killed in the kitchen is it sexist and does the game end?,1.0,,,,ERROR,"unexpected_error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'thinking.enabled.budget_tokens: Input should be greater than or equal to 1024'}, 'request_id': 'req_011CZTpHdHsn8Z4pa2nkuXBF'}",0,0,0,,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,The answer 'nan' is a non-response that provides no factual information about Clue rules or the question being asked.,The answer provides no coverage whatsoever of either the game mechanics question or the normative question about sexism.,"No chunk references in CHUNK_N format are present, and no chunks were retrieved (chunks field shows 'nan').","No valid chunks were retrieved, and no citations are made that could be validated.","'nan' is a technical placeholder, not natural English communication.","SCOPE: The question asks whether killing a female suspect in the kitchen is 'sexist' (cultural commentary, out of scope) and whether the game ends (based on a false premise not grounded in actual Clue rules). Both parts fall outside the defined scope of Clue rules and gameplay. | REFUSAL: The agent's answer is 'nan,' representing a null/empty response with no information provided, effectively constituting a refusal to answer. | FLAGS: CorrectRefusal=1 because the question was out of scope and the agent refused. ImproperRefusal=0 because the refusal was appropriate given the out-of-scope question. ShouldHaveRefused=0 because the agent did refuse.","The user is asking about whether it's sexist if a female suspect is killed in the kitchen in Clue, and whether the game ends in that scenario.
+
+The answer provided is ""nan"" (meaning ""not a number"" or null/not available).
+
+The chunks are also ""nan"", meaning no chunks were retrieved to support an answer.
+
+Let me evaluate each metric:
+
+C1_correctness: The answer is ""nan"" which is not a meaningful response. This doesn't address the user's question at all. It's not factually correct or helpful. Score: 0
+
+C2_coverage: ""nan"" provides no coverage of the question being asked. The user wants to know about the game rules (if the game ends when a female suspect is killed in the kitchen) and whether this would be sexist. The answer provides nothing. Score: 0
+
+C3_citation_presence: There are no explicit chunk references in the format CHUNK_N. The retrieved chunks field shows ""nan"", meaning no chunks were retrieved. Therefore, there's no citation present. Score: 0
+
+C4_citation_valid: Since no chunks were provided (chunks are ""nan"") and no citations are made, this cannot be scored as valid. Score: 0
+
+C5_clarity: ""nan"" is not written in fluent, natural English. It's a placeholder or error value. It doesn't communicate clearly to the user. Score: 0
+
+This appears to be a system error or the agent failed to retrieve relevant information and returned a null value instead of attempting to answer the question.",AgentJudge,,,
+5,2026-03-27T09:24:15.956679,1,3,S,How do I win?,1.0,,,,ERROR,"unexpected_error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'thinking.enabled.budget_tokens: Input should be greater than or equal to 1024'}, 'request_id': 'req_011CZTpHrYrNetVYjJPQ6mQk'}",0,0,0,,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,"Answer is 'nan', a placeholder/error value with no factual content about winning at Clue",No information provided about winning conditions; critical context completely missing,No CHUNK_N references present; chunks field contains 'nan' placeholder,No valid chunks provided to support any claims,'nan' is not natural English; appears to be a technical error value,"SCOPE: Win and loss conditions are explicitly listed as in-scope for this assistant. 'How do I win?' directly asks about win conditions. | REFUSAL: The answer is 'nan', representing a null/missing response. No substantive information was provided, which constitutes a failure to answer — effectively a refusal. | FLAGS: ImproperRefusal=1 because the question was in scope but the agent failed to provide any answer. The other flags are 0 as the question was in scope.","The user is asking a question about how to win at the game Clue. The answer provided is ""nan"" and the chunks are also ""nan"".
+
+This is an interesting case. The answer is ""nan"" which is not a valid response - it appears to be a placeholder or error value. The chunks are also ""nan"".
+
+Let me evaluate each metric:
+
+C1_correctness: The answer is ""nan"" which is not a factual answer about how to win at Clue. This is incorrect and unhelpful. Score: 0
+
+C2_coverage: Even if ""nan"" were to mean something, it doesn't address the question about how to win at Clue. There's no explanation or information provided. Score: 0
+
+C3_citation_presence: There are no explicit chunk references in the format CHUNK_N. The chunks field shows ""nan"" which doesn't contain any valid information. Score: 0
+
+C4_citation_valid: Since there are no valid citations and the chunks are ""nan"", this cannot be scored as 1. Score: 0
+
+C5_clarity: ""nan"" is not written in fluent, natural English. It's a placeholder/error value that is confusing. Score: 0
+
+All metrics should score 0 because the answer is completely invalid.",AgentJudge,,,
+6,2026-03-27T09:24:19.069899,1,2,S,What is the objective of the game?,1.0,,,,ERROR,"unexpected_error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'thinking.enabled.budget_tokens: Input should be greater than or equal to 1024'}, 'request_id': 'req_011CZTpJ5sHiiRLywk8A1H14'}",0,0,0,,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,The answer 'nan' is not a real response and provides no factual information about the game's objective.,The answer contains no actual content or information about the rule being asked about.,"No citation references are present in the answer, and no valid chunks were provided.","No citations exist to validate, and chunks are marked as 'nan' rather than containing actual text.",'nan' is not natural English language and appears to be a placeholder or error message.,"SCOPE: The question asks about the objective of the game, which directly relates to win and loss conditions and gameplay mechanics — both explicitly within the defined scope. | REFUSAL: The answer is 'nan', meaning no response was provided. This constitutes a complete refusal to answer. | FLAGS: ImproperRefusal=1 because the question was in scope but the agent provided no answer. The other flags are 0 as the question was in scope.","This is a straightforward evaluation. The answer is ""nan"" and the chunks are ""nan"". This appears to be a non-response or error state.
+
+Let me evaluate each metric:
+
+C1_correctness: The answer is ""nan"" which doesn't actually answer the question about the objective of Clue. This is not a correct or useful answer. Score 0.
+
+C2_coverage: The answer provides no information at all, so it's completely incomplete. Score 0.
+
+C3_citation_presence: There are no citations in the answer at all. The chunks provided are also ""nan"" (not available). Score 0.
+
+C4_citation_valid: Since there are no citations and no valid chunks provided, this cannot be validated. Score 0.
+
+C5_clarity: ""nan"" is not fluent, natural, or idiomatic English - it appears to be a placeholder or error message rather than actual text. Score 0.
+
+All metrics should score 0 because the answer is essentially non-existent/invalid.",AgentJudge,,,
+7,2026-03-27T09:24:22.178134,1,6,M,How often can I switch cards with another player?,1.0,,,,ERROR,"unexpected_error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'thinking.enabled.budget_tokens: Input should be greater than or equal to 1024'}, 'request_id': 'req_011CZTpJK91M2gHJPZ8RHxBu'}",0,0,0,,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,Answer is 'nan' - not a meaningful response with no factual content,No information provided to explain card switching rules,No citations present and chunks field contains 'nan',No chunks provided to validate any citations,'nan' is not natural English and appears to be an error or placeholder,"SCOPE: Card-switching between players is not a mechanic in standard Clue rules. The scope definition excludes questions not grounded in actual game rules, making this question out of scope. | REFUSAL: The answer is 'nan', indicating no response was provided, which constitutes a refusal. | FLAGS: CorrectRefusal=1 because the question was out of scope and the agent refused. The other two flags are 0 as they require different combinations of scope and refusal status.","The user is asking about how often a player can switch cards with another player in the game of Clue.
+
+The answer provided is ""nan"" and the chunks are also ""nan"".
+
+Let me evaluate each metric:
+
+C1_correctness: The answer is ""nan"" which is not a proper answer at all. It's not factually correct because it doesn't actually answer the question. It's unhelpful. Score 0.
+
+C2_coverage: The answer doesn't provide any coverage of the question. Score 0.
+
+C3_citation_presence: There are no citations, and the chunks are listed as ""nan"" which means no chunks were retrieved or provided. Score 0.
+
+C4_citation_valid: There are no valid citations since none were provided. Score 0.
+
+C5_clarity: ""nan"" is not written in fluent, natural English. It appears to be a placeholder or error message. Score 0.
+
+All metrics should score 0 because the answer is essentially non-existent (just ""nan"").",AgentJudge,,,
+8,2026-03-27T09:24:25.309232,1,1,S,How many players can play,1.0,,,,ERROR,"unexpected_error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'thinking.enabled.budget_tokens: Input should be greater than or equal to 1024'}, 'request_id': 'req_011CZTpJYdcUBMhPaWXWZxd9'}",0,0,0,,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,Answer provides no factual information about player counts,Answer contains no substantive content whatsoever,No chunk citations present in answer; chunks field is 'nan' placeholder,No valid chunk text provided to support any claims,'nan' is not natural English or a comprehensible response,"SCOPE: The question asks about the number of players, which is a fundamental setup rule and falls directly within the defined scope of Clue rules and gameplay. | REFUSAL: The answer is 'nan', a null/missing value indicating no response was given. This constitutes a failure to answer, equivalent to a refusal. | FLAGS: ImproperRefusal=1 because the question was in scope but the agent provided no answer. The other flags are 0 as the refusal was not correct (question was in scope) and the agent should not have refused.","Let me analyze this evaluation carefully.
+
+QUESTION: ""How many players can play""
+ANSWER: ""nan""
+CHUNKS: ""nan""
+
+This appears to be a malformed test case where both the answer and the chunks are ""nan"" (Not a Number), which suggests missing or invalid data.
+
+Let me evaluate each metric:
+
+**C1_correctness**: The answer ""nan"" is not a factual answer about how many players can play Clue. It's just the string ""nan"" which is not helpful or correct. The answer fails to provide any meaningful information. Score: 0
+
+**C2_coverage**: The answer provides no actual content about the number of players allowed in Clue. It's completely incomplete. Score: 0
+
+**C3_citation_presence**: There are no explicit chunk references in the format CHUNK_N. Additionally, the chunks field contains ""nan"" which doesn't address the question at all. Score: 0
+
+**C4_citation_valid**: Since there are no citations and the chunks field is ""nan"" (not actual chunk text), this cannot be valid. Score: 0
+
+**C5_clarity**: ""nan"" is not natural English or a clear answer. It's a technical artifact suggesting missing data. Score: 0
+
+All metrics should score 0 because the answer is essentially non-responsive.",AgentJudge,,,
+9,2026-03-27T09:24:28.507733,1,9,S,Who goes first?,1.0,,,,ERROR,"unexpected_error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'thinking.enabled.budget_tokens: Input should be greater than or equal to 1024'}, 'request_id': 'req_011CZTpJnDg8kxZz5E2indwt'}",0,0,0,,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,Answer 'nan' provides no factual information about who goes first in Clue - it is not a real answer.,No substantive information provided; complete absence of rule explanation leaves the question unanswered.,No chunk references in CHUNK_N format; chunks field only contains 'nan'.,No valid citations; chunks do not contain supportive text.,'Nan' is not natural English; appears to be a system error or placeholder.,"SCOPE: The question asks about turn order, which falls directly under 'turn structure' — an explicitly in-scope topic for the Clue rules assistant. | REFUSAL: The answer is 'nan', meaning no content was returned to the user. A null/empty response constitutes a refusal to answer. | FLAGS: Because the question was in scope and the agent refused (nan response), ImproperRefusal is scored 1. The other flags are 0 to maintain mutual exclusivity.","The user is asking ""Who goes first?"" in the context of Clue (based on the system prompt context).
+
+The ANSWER provided is ""nan"" and the CHUNKS provided are ""nan"".
+
+This appears to be a problematic response. Let me evaluate each metric:
+
+C1_correctness: The answer ""nan"" is not a factual answer to ""Who goes first?"" in Clue. This is not a correct or useful answer. Score: 0
+
+C2_coverage: Even if we interpret ""nan"" as some kind of answer, it certainly doesn't provide complete information about who goes first in Clue. Score: 0
+
+C3_citation_presence: There are no explicit chunk references in the format CHUNK_N. The chunks provided are ""nan"" which doesn't address the question. Score: 0
+
+C4_citation_valid: Since there are no valid citations and the chunks are ""nan"", this would score 0. However, the instruction says ""If the retrieved chunk in retrieved_chunks field addresses the question - Score 1"". The chunks don't address the question here. Score: 0
+
+C5_clarity: ""nan"" is not clear, fluent, or natural English. It's unclear what it means. Score: 0
+
+This is clearly a failed response - likely a system error or incomplete retrieval where ""nan"" (which typically means ""not a number"" in programming) was returned instead of actual content.",AgentJudge,,,
+10,2026-03-27T09:24:31.620844,1,4,S,Can there be more than one winner?,1.0,,,,ERROR,"unexpected_error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'thinking.enabled.budget_tokens: Input should be greater than or equal to 1024'}, 'request_id': 'req_011CZTpK1ZcKnqGmgfbCSvmK'}",0,0,0,,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,Answer is 'nan' with no substantive content addressing the question,Answer provides no information whatsoever about Clue winning conditions,No chunk references present; chunks field contains 'nan',No citations to validate; chunks are 'nan','nan' is not a proper English response,"SCOPE: The question asks about win conditions (can there be more than one winner), which is explicitly listed as in-scope for this Clue rules assistant. | REFUSAL: The answer is 'nan', indicating no response was given. This is treated as a refusal or non-answer. | FLAGS: ImproperRefusal=1 because the question was in scope but the agent failed to provide any answer. CorrectRefusal and ShouldHaveRefused are both 0.","The question is asking whether there can be more than one winner in the board game Clue.
+
+The answer provided is ""nan"" and the chunks are also ""nan"".
+
+Let me evaluate this:
+
+C1_correctness: The answer is ""nan"" which is not a proper answer. It doesn't provide any information about whether there can be more than one winner in Clue. This is not factually correct or useful. Score: 0
+
+C2_coverage: The answer doesn't provide any information at all about the rule being asked about. It's completely incomplete. Score: 0
+
+C3_citation_presence: The answer is ""nan"" with no explicit chunk references like ""CHUNK_N"". Additionally, the chunks are ""nan"" so there's nothing to cite. Score: 0
+
+C4_citation_valid: The answer contains no citations, and the chunks are ""nan"" so there's nothing to validate. Score: 0
+
+C5_clarity: The answer ""nan"" is not written in fluent, natural English. It's not a real answer at all. Score: 0
+
+This appears to be a data issue where the agent failed to retrieve chunks or provide an actual answer.",AgentJudge,,,

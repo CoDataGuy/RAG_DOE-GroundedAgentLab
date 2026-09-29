@@ -1,0 +1,16 @@
+# ── Environmentals  ──────────────────────
+# includes license keys, limits 
+.env
+
+# ── md Game Instructions  ──────────────────────
+# insturctions into md to facilitate chunking
+ClueRules.md
+
+# ── Admin Files  ──────────────────────
+# 
+.claude/
+__pycache__/
+archive/
+# -- Outputfiles _______________________
+#
+Outputfiles/
