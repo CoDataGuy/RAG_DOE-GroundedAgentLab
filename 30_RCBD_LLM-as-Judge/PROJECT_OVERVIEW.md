@@ -36,14 +36,5 @@ There is no orchestrator — the researcher runs the notebook, then `AgentJudge.
 | `retriever_implementation.py` | Hybrid retrieval: hand-rolled BM25 + cosine-similarity VectorIndex, fused via Reciprocal Rank Fusion, optional LLM rerank |
 | `rag_helpers.py` / `llm_helpers.py` | Retriever factory, chunking/contextualizing, and the Anthropic API wrapper (with prompt caching) used by the notebook |
 
-## Known Gap — RGS Is Not Currently Computed
-
-The intended response variable, `RGS = C1 × (C2+C3+C4+C5) / 4`, is defined only in `scoring_helper.merge_scores()` — which both notebooks import but never call. Neither judge script computes it. The `RGS`/`groundedness` CSV columns exist but stay blank. Any downstream JMP/statistical analysis currently has nothing to consume until `merge_scores()` is wired up or called manually.
-
-## Other Open Items
-
-- `Judge/JudgeAgentPrompt.json` has an **uncommitted edit** loosening the C3/C4 citation checks from a mechanical format check toward a content-support judgement call.
-- `Judge/JudgeScoringPrompt.json` is an orphaned, unused duplicate of an earlier rubric.
-- `.env`'s `REFUSAL_JUDGE_MODEL_NAME` key has a stray space before `=` — worth confirming it resolves correctly.
 
 See [Solution Documentation/diagrams/README.md](Solution%20Documentation/diagrams/README.md) and [Judge Design/README.md](Solution%20Documentation/diagrams/Judge%20Design/README.md) for full architectural detail.
